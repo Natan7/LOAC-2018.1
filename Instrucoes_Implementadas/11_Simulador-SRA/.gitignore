@@ -1,0 +1,10 @@
+*.*
+!*.cpp
+!*.sv
+!*.h
+!Makefile
+!*.png
+!.gitignore
+!README.md
+
+obj_dir/*
