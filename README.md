@@ -1,12 +1,12 @@
 # LOAC-2018.1
-###Na pasta do codigo assemly Risc-v
+##Na pasta do codigo assemly Risc-v
 
 riscv32-unknown-elf-gcc -nostdlib -nostartfiles -Tlink.ld -o inst inst.s
 riscv32-unknown-elf-objdump -s -j .text inst | egrep " [0-9a-f]{4} [0-9a-f]{8}" | cut -b7-41 > inst.objdump
 
 make 
 
-###Conferindo resultado do simulador, pelo spike
+##Conferindo resultado do simulador, pelo spike
 
 spike-bm -m2 -d inst
 
