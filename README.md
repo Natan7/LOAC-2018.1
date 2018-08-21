@@ -11,7 +11,7 @@ make
 
 spike-bm -m2 -d inst
 
-	### No prompt":"
+	# No prompt":"
 		a) Enter - executa uma instrução/vez
 		b) reg 0 - visualiza os registradores
 c) q - sairimplementação de algumas instruções requisitadas na prova das tirinhas, da disciplina de Laboratório de Arquitetura de Computadores (LOAC).
